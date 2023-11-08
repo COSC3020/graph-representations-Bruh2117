@@ -16,7 +16,7 @@ depend on the number of vertices, the number of edges, or both?
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
 
-The runtime complexity is $|V|^{2}$ since the outer loop iterates down the number of rows in the Adjacency Matrix, $|V|$, and the inner loop iterates over the number of columns, also $|V|$, which are multiplied together to form the runtime of the conversion. 
+The runtime complexity is $|V|^{2}$ since the outer loop iterates down the number of rows in the Adjacency Matrix, $|V|$, and the inner loop iterates over each entry in the row, ie) the number of columns $|V|$, which are multiplied together to form the runtime of the conversion. 
 
 ## Bonus
 
